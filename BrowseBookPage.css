@@ -1,0 +1,51 @@
+/* BrowseBookPage.css */
+
+/* Main container for all the books */
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Each individual book container */
+  .book-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+  }
+  
+  /* Hover effect to make the book box look interactive */
+  .book-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Title of the book */
+  .book-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Author of the book */
+  .book-author {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Book image */
+  .book-image {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+
+  
